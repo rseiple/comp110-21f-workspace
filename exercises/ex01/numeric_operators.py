@@ -1,6 +1,6 @@
 """Exercise in numeric operators and converting types."""
 
-__author__ = 730524618
+__author__ = str(730524618)
 
 left_num = int(input("Please enter a number for the left side: "))
 right_num = int(input("Please enter a number for the right side: "))
