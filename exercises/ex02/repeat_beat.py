@@ -12,6 +12,7 @@ if repeatnum > 0:
     while counter < repeatnum:
         output: str = (repeat + " ") * repeatnum
         counter = counter + 1
-    print(output)
+    output: len(output) - len(" ")
+    print(str(output) + "h")
 else:
     print("No beat...")
